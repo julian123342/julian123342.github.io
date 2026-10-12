@@ -1,1 +1,129 @@
 
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binair | Pixel & Bits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h2>PIXEL & BITS</h2>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="invoer-verwerking-uitvoer.html">Invoer & uitvoer</a>
+                <a href="binair.html">Binair</a>
+                <a href="kleurmodellen.html">Kleuren</a>
+                <a href="compressie.html">Compressie</a>
+                <a href="ai.html">AI</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Het binaire stelsel</h1>
+                <p>
+                    Computers werken met bits. Een bit kan 0 of 1 zijn.
+                    Met combinaties van nullen en enen kunnen computers
+                    getallen, tekst, foto's en nog veel meer opslaan.
+                </p>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Hoe tel je binair?</h2>
+            <p>
+                Wij tellen meestal met tien cijfers: 0 tot en met 9.
+                Het binaire stelsel gebruikt maar twee cijfers: 0 en 1.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Decimaal</th>
+                    <th>Binair</th>
+                </tr>
+                <tr><td>1</td><td>1</td></tr>
+                <tr><td>2</td><td>10</td></tr>
+                <tr><td>3</td><td>11</td></tr>
+                <tr><td>4</td><td>100</td></tr>
+                <tr><td>5</td><td>101</td></tr>
+                <tr><td>6</td><td>110</td></tr>
+                <tr><td>7</td><td>111</td></tr>
+                <tr><td>8</td><td>1000</td></tr>
+                <tr><td>9</td><td>1001</td></tr>
+                <tr><td>10</td><td>1010</td></tr>
+            </table>
+        </section>
+
+        <section class="container">
+            <h2>Hoeveel kun je opslaan met bits?</h2>
+            <p>
+                Elke extra bit verdubbelt het aantal mogelijke combinaties.
+                Met n bits kun je 2 tot de macht n verschillende combinaties maken.
+            </p>
+
+            <div class="grid">
+                <article class="card">
+                    <h3>1 bit</h3>
+                    <p>2 combinaties: 0 en 1</p>
+                </article>
+                <article class="card">
+                    <h3>2 bits</h3>
+                    <p>4 combinaties: 00, 01, 10, 11</p>
+                </article>
+                <article class="card">
+                    <h3>3 bits</h3>
+                    <p>8 verschillende combinaties</p>
+                </article>
+                <article class="card">
+                    <h3>4 bits</h3>
+                    <p>16 verschillende combinaties</p>
+                </article>
+                <article class="card">
+                    <h3>8 bits = 1 byte</h3>
+                    <p>256 verschillende combinaties</p>
+                </article>
+            </div>
+
+            <p>
+                Als je alleen niet-negatieve gehele getallen opslaat,
+                kun je met 8 bits de getallen 0 tot en met 255 opslaan.
+            </p>
+        </section>
+
+        <section class="container">
+            <h2>Hoe werkt dat?</h2>
+            <p>
+                Elke positie in een binair getal heeft een waarde.
+                Van rechts naar links zijn die waarden 1, 2, 4, 8, 16
+                en zo verder. Je telt de waarden op waar een 1 staat.
+            </p>
+
+            <article class="card">
+                <h3>Voorbeeld: het getal 10</h3>
+                <p>Binair: 1010</p>
+                <p>1 × 8 + 0 × 4 + 1 × 2 + 0 × 1 = 10</p>
+            </article>
+        </section>
+
+        <section class="container">
+            <a class="button" href="index.html">
+                Terug naar Home
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            Julians website | Pixel & Bits
+        </div>
+    </footer>
+
+</body>
+</html>
+
