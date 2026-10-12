@@ -1,0 +1,120 @@
+/* Kleuren van mijn website */
+:root {
+    --achtergrond: #0b1020;
+    --kaart: #151d35;
+    --paars: #8b5cf6;
+    --lichtblauw: #93c5fd;
+    --wit: #f8fafc;
+    --tekst: #cbd5e1;
+}
+
+/* Algemene opmaak */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--achtergrond);
+    color: var(--tekst);
+    line-height: 1.7;
+}
+
+/* Inhoud in het midden */
+.container {
+    width: 92%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Menu bovenaan */
+header {
+    background: #10172b;
+    padding: 20px 0;
+    border-bottom: 1px solid #303b5a;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    color: var(--lichtblauw);
+    text-decoration: none;
+    padding: 8px;
+}
+
+nav a:hover {
+    background: var(--paars);
+    color: white;
+    border-radius: 8px;
+}
+
+/* Grote titel */
+.hero {
+    padding: 50px 0;
+}
+
+h1, h2, h3 {
+    color: var(--wit);
+}
+
+/* Kaarten met onderwerpen */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: var(--kaart);
+    border: 1px solid #303b5a;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* Afbeeldingen */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Paarse knoppen */
+.button {
+    display: inline-block;
+    background: var(--paars);
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* Opmaak van video's */
+.video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Onderaan de pagina */
+footer {
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid #303b5a;
+}
+
+/* Opmaak voor kleine schermen */
+@media (max-width: 600px) {
+    .hero {
+        padding: 25px 0;
+    }
+}
