@@ -1,0 +1,104 @@
+
+Code
+
+Wat doet het?
+
+<!DOCTYPE html>
+
+(Vertelt de browser dat dit een HTML5-pagina is.)
+
+<html lang="nl">
+
+Geeft aan dat de website in het Nederlands is.
+
+<head>
+
+Bevat instellingen van de pagina.
+
+<meta charset="UTF-8">
+
+Zorgt dat letters en speciale tekens goed worden weergegeven.
+
+<meta name="viewport"...>
+
+Zorgt dat de website zich aanpast aan het scherm van een telefoon of computer.
+
+<title>
+
+Bepaalt de titel die je in het browsertabblad ziet.
+
+<link rel="stylesheet" href="style.csS">
+
+Verbindt je HTML met je CSS-bestand voor de kleuren en opmaak.
+
+<body>
+
+Bevat alles wat zichtbaar is op de website.
+
+<header>
+
+Bevat de bovenkant van de website, zoals het menu.
+
+<nav>
+
+Bevat de navigatielinks waarmee je naar andere pagina's gaat.
+
+<main>
+
+Bevat de belangrijkste inhoud van de pagina.
+
+<section>
+
+Verdeelt de pagina in verschillende onderdelen.
+
+<div class="container">
+
+Groepeert inhoud en zorgt met jouw CSS dat die netjes op de pagina staat.
+
+<h1>
+
+De hoofdtitel van de pagina.
+
+<h2>
+
+Een titel voor een groter onderdeel.
+
+<h3>
+
+Een titel voor een kleinere sectie of kaart.
+
+<p>
+
+Een alinea met tekst.
+
+<article class="card">
+
+Maakt een inhoudskaart met jouw bestaande CSS-opmaak.
+
+<div class="grid">
+
+Zet kaarten naast elkaar als er genoeg ruimte is.
+
+<img>
+
+Voegt een afbeelding toe. alt beschrijft de afbeelding voor mensen die hem niet kunnen zien.
+
+<strong>
+
+Maakt tekst belangrijk en meestal vetgedrukt.
+
+<iframe>
+
+Laat bijvoorbeeld een YouTube-video binnen je pagina zien.
+
+<a href="...">
+
+Maakt een link naar een andere pagina of website.
+
+<footer>
+
+Bevat de onderkant van de website, bijvoorbeeld je websitetitel.
+
+<!-- commentaar -->
+
+Commentaar voor mensen die de code lezen; het wordt niet als gewone tekst op de website getoond.
