@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <!-- Instellingen van de pagina -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kleurmodellen | Pixel & Bits</title>
+
+    <!-- Koppeling met het CSS-bestand -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu bovenaan de website -->
+    <header>
+        <div class="container">
+            <h2>PIXEL & BITS</h2>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="invoer-verwerking-uitvoer.html">Invoer & uitvoer</a>
+                <a href="binair.html">Binair</a>
+                <a href="kleurmodellen.html">Kleuren</a>
+                <a href="compressie.html">Compressie</a>
+                <a href="ai.html">AI</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Introductie van kleurmodellen -->
+        <section class="hero">
+            <div class="container">
+                <h1>Kleurmodellen</h1>
+                <p>
+                    Als je naar een foto op je telefoon of computer kijkt,
+                    zie je allerlei kleuren. Maar hoe maakt een scherm die
+                    kleuren eigenlijk? Daarvoor gebruikt een computer
+                    kleurmodellen.
+                </p>
+            </div>
+        </section>
+
+        <!-- Uitleg over RGB -->
+        <section class="container">
+            <h2>Het RGB-kleurmodel</h2>
+
+            <article class="card">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/RGB_Cube_Show_lowgamma_cutout_a.png/640px-RGB_Cube_Show_lowgamma_cutout_a.png"
+                    alt="Het RGB-kleurmodel met verschillende kleuren"
+                    loading="lazy"
+                >
+
+                <p>
+                    RGB staat voor rood (Red), groen (Green) en blauw (Blue).
+                    Een beeldscherm gebruikt deze drie kleuren licht om
+                    andere kleuren te maken.
+                </p>
+
+                <p>
+                    Door rood, groen en blauw licht te mengen, kunnen
+                    miljoenen verschillende kleuren ontstaan. Als alle
+                    drie de kleuren op hun maximale sterkte staan,
+                    krijg je wit licht. Als ze uitstaan, zie je zwart.
+                </p>
+
+                <p>
+                    <strong>Voorbeeld:</strong> je telefoon gebruikt RGB
+                    om de kleuren van foto's, video's en games weer te geven.
+                </p>
+            </article>
+        </section>
+
+        <!-- Voorbeelden van RGB-kleuren -->
+        <section class="container">
+            <h2>Hoe meng je kleuren met RGB?</h2>
+
+            <div class="grid">
+
+                <article class="card">
+                    <h3>Rood + groen</h3>
+                    <div style="background: #ffff00; height: 100px; border-radius: 10px;"></div>
+                    <p>
+                        Rood licht en groen licht samen geven geel.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Rood + blauw</h3>
+                    <div style="background: #ff00ff; height: 100px; border-radius: 10px;"></div>
+                    <p>
+                        Rood licht en blauw licht samen geven magenta.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Groen + blauw</h3>
+                    <div style="background: #00ffff; height: 100px; border-radius: 10px;"></div>
+                    <p>
+                        Groen licht en blauw licht samen geven cyaan.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Uitleg over CMYK -->
+        <section class="container">
+            <h2>Het CMYK-kleurmodel</h2>
+
+            <article class="card">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/CMYK_color_model.svg/640px-CMYK_color_model.svg.png"
+                    alt="Het CMYK-kleurmodel met cyaan, magenta, geel en zwart"
+                    loading="lazy"
+                >
+
+                <p>
+                    CMYK wordt vooral gebruikt bij het afdrukken met
+                    printers. De letters staan voor cyaan (Cyan),
+                    magenta (Magenta), geel (Yellow) en zwart (Key).
+                </p>
+
+                <p>
+                    Een printer mengt inkt om verschillende kleuren
+                    op papier te maken. Hoe meer inktkleuren worden
+                    gecombineerd, hoe donkerder het resultaat meestal wordt.
+                </p>
+
+                <p>
+                    <strong>Voorbeeld:</strong> als je een foto afdrukt,
+                    gebruikt de printer CMYK-inkt om de kleuren op papier
+                    te maken.
+                </p>
+            </article>
+        </section>
+
+        <!-- Verschil tussen RGB en CMYK -->
+        <section class="container">
+            <h2>Wat is het verschil?</h2>
+
+            <div class="grid">
+                <article class="card">
+                    <h3>RGB</h3>
+                    <p>
+                        RGB werkt met licht en wordt gebruikt bij
+                        beeldschermen, telefoons, televisies en camera's.
+                    </p>
+                    <p>
+                        Hoe meer licht je toevoegt, hoe lichter de kleur
+                        wordt. Rood, groen en blauw samen geven wit.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>CMYK</h3>
+                    <p>
+                        CMYK werkt met inkt en wordt gebruikt bij printers
+                        en drukwerk.
+                    </p>
+                    <p>
+                        Inkt absorbeert een deel van het licht. Daarom
+                        werkt het mengen van inkt anders dan het mengen
+                        van licht.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Video over kleurmodellen -->
+        <section class="container">
+            <h2>Video over RGB en CMYK</h2>
+
+            <article class="card">
+                <div class="video">
+                    <iframe
+                        src="https://www.youtube-nocookie.com/embed/2K2B8X4g9pM"
+                        title="Uitleg over RGB en CMYK"
+                        loading="lazy"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+                <p>
+                    Ik heb een video over RGB en CMYK gekozen omdat je
+                    daarmee kunt zien waarom beeldschermen en printers
+                    verschillende manieren gebruiken om kleuren te maken.
+                    Dat maakt het verschil makkelijker te begrijpen.
+                </p>
+
+                <p>
+            </article>
+        </section>
+
+        <!-- Samenvatting -->
+        <section class="container">
+            <h2>Wat heb je geleerd?</h2>
+
+            <article class="card">
+                <p>
+                    RGB gebruikt rood, groen en blauw licht om kleuren
+                    op een scherm te maken. CMYK gebruikt cyaan,
+                    magenta, geel en zwart om kleuren met inkt af te drukken.
+                </p>
+                <p>
+                    Het belangrijkste verschil is dus dat RGB met licht
+                    werkt en CMYK met inkt.
+                </p>
+            </article>
+
+            <p>
+                <a class="button" href="binair.html">
+                    Terug naar binair
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Onderaan de website -->
+    <footer>
+        <div class="container">
+            Julians website | Pixel & Bits
+        </div>
+    </footer>
+
+</body>
+</html>
